@@ -1,0 +1,11 @@
+main{
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content-container{
+    background-color: teal;
+    width: 25rem;
+    color: white;
+}
