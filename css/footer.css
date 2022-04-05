@@ -1,0 +1,8 @@
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    align-items: center;
+}
