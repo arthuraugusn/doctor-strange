@@ -27,3 +27,12 @@ header{
 .links-container a:hover{
     background-color: red;
 }
+
+@media (max-width: 768px){
+    header{
+        height: 70px;
+    }
+    .links-container{
+        display: none;
+    }
+}

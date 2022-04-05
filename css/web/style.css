@@ -14,3 +14,11 @@ body{
 
 }
 
+@media (max-width: 768px){
+    body{
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../../img/background.png);
+        background-blend-mode: darken;
+    }
+}
