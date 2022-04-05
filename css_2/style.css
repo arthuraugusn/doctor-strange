@@ -1,0 +1,7 @@
+:root{
+    --accent-color: #FF0314;
+}
+
+body{
+    background: linear-gradient(black, black, red);
+}
