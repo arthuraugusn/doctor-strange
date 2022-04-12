@@ -2,6 +2,11 @@
     --accent-color: #FF0314;
 }
 
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
 body{
     background: linear-gradient(90deg, #000, #000E 8%, #000A 20%, #0000), url(../../img/background.png);
     height: 100vh;
@@ -11,6 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
+    animation: zoom 1.5s;
 
 }
 
@@ -21,5 +27,14 @@ body{
         background-image: url(../../img/background.png);
         background-blend-mode: darken;
         background-position: 90%;
+    }
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(4);
+    }
+    100%{
+        transform: scale(1);
     }
 }

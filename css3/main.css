@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content-container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 28px;
+}
+
+.galery{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    gap: 15px;
+}
+
+.madness{
+    color: red;
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic  ;
+}
+

@@ -3,12 +3,10 @@
 }
 
 body{
-    background-color: black ;
-    height: 100vh;
     display: flex;
+    background-color: black;
     flex-direction: column;
     padding: 0 128px;
-    animation: zoom 1.5s;
 }
 
 @keyframes zoom{
