@@ -1,33 +1,34 @@
 main{
     display: flex;
-    font-family: 'Mulish', sans-serif;
+    flex-direction: column;
+    align-items: center;
     flex-grow: 1;
 }
 
 .content-container{
     display: flex;
-    color: white;
     flex-direction: column;
-    gap: 30px;
     align-items: center;
-    font-size: 28px;
-}
-
-.galery{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 275px;
-}
-
-
-h1{
-    display: flex;
+    font-size: 38px;
+    flex-grow: 1;
+    color: white;
     gap: 15px;
 }
 
-.madness{
+.multiverse{
     color: red;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    gap: 85px;
+}
+
+.imagens{
+    height: 280px;
 }
 
 .button{
@@ -44,28 +45,14 @@ h1{
 }
 
 @media(max-width:768px){
-    .content-container{
-        gap: 10px;
-        align-items: center;
-    }
     h1{
-        gap: 10px;
-        display: flex;
-        font-size: 30px;
+        font-size: 40px;
     }
-    .madness{
-        font-size: 25px;
+    .multiverse{
+        font-size: 37px;
     }
-    .galery{
-        display: flex;
-        gap: 100px;
+    .imgs{
         flex-direction: column;
-    }
-    .galeria{
-        display: flex;
-        width: 300px;
-        align-items: center;
-        justify-content: center;
     }
     .button{
         display: flex;

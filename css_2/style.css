@@ -2,6 +2,11 @@
     --accent-color: #FF0314;
 }
 
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
 body{
     background-color: black ;
     height: 100vh;
