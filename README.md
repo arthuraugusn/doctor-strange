@@ -1,6 +1,6 @@
 # Doctor-Strange
 ## Multiverse of Madness
-Projeto construidp durante as aulas de LIMA, no curso de desenvolvimento do [SENAI Jandira](https://jandira.sp.senai.br/), com orientação do Prof.[Fernando Leonid](https://github.com/fernandoleonid)
+Projeto construido durante as aulas de LIMA, no curso de desenvolvimento do [SENAI Jandira](https://jandira.sp.senai.br/), com orientação do Prof.[Fernando Leonid](https://github.com/fernandoleonid)
 
 ![página home](./img/home.png)
 
