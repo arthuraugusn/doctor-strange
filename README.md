@@ -4,8 +4,7 @@ Projeto construido durante as aulas de LIMA, no curso de desenvolvimento do [SEN
 
 ![página home](./img/home.png)
 
-<img src="./img/mobile.png" width= "150px">
-<img src="./img/menu-mobile.png" width= "150px">
+<img src="./img/mobile.png" width= "150px"> <img src="./img/menu-mobile.png" width= "150px">
 
 ---
 
